@@ -20,4 +20,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "ComposeParticleAnimation"
-include(":app")
+include(":sample")
+include(":particle_animation")

@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle
+package `fun`.nekrutov.compose.animation
 
 import android.content.Context
 import androidx.annotation.CallSuper

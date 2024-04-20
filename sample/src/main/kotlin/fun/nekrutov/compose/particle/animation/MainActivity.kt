@@ -1,13 +1,11 @@
-package not.cool.ed.compose.particle.animation
+package `fun`.nekrutov.compose.particle.animation
 
 import android.os.Bundle
 import android.view.MotionEvent
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -24,16 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.RequestDisallowInterceptTouchEvent
 import androidx.compose.ui.input.pointer.pointerInteropFilter
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
+import `fun`.nekrutov.compose.particle.animation.ui.theme.ComposeParticleAnimationTheme
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.asSharedFlow
-import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
-import not.cool.ed.compose.animation.particle.Particle
-import not.cool.ed.compose.particle.animation.ui.theme.ComposeParticleAnimationTheme
-import java.util.concurrent.atomic.AtomicLong
 import kotlin.time.Duration.Companion.milliseconds
 
 class MainActivity : ComponentActivity() {

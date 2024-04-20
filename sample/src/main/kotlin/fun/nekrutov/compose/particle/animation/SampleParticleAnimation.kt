@@ -1,4 +1,4 @@
-package not.cool.ed.compose.particle.animation
+package `fun`.nekrutov.compose.particle.animation
 
 import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.tween
@@ -11,13 +11,13 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
+import `fun`.nekrutov.compose.animation.Particle
+import `fun`.nekrutov.compose.animation.ParticleAnimator
+import `fun`.nekrutov.compose.animation.image.FlightCalculatorForImage
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import not.cool.ed.compose.animation.particle.image.FlightCalculatorForImage
-import not.cool.ed.compose.animation.particle.Particle
-import not.cool.ed.compose.animation.particle.ParticleAnimator
 import kotlin.math.roundToInt
 import kotlin.random.Random
 import kotlin.time.Duration.Companion.milliseconds

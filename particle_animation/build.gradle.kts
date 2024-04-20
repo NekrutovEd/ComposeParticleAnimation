@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "not.cool.ed.compose.animation.particle"
-    compileSdk = 34
+    namespace = "fun.nekrutov.compose.animation.particle"
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        minSdk = 16
+        minSdk = libs.versions.minSdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")

@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle.image
+package `fun`.nekrutov.compose.animation.image
 
 import androidx.compose.ui.unit.IntOffset
 import kotlin.math.pow

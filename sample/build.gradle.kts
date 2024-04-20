@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "not.cool.ed.compose.particle.animation"
-    compileSdk = 34
+    namespace = "fun.nekrutov.compose.particle.animation"
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "not.cool.ed.compose.particle.animation"
-        minSdk = 24
-        targetSdk = 34
+        applicationId = "fun.nekrutov.compose.particle.animation"
+        minSdk = libs.versions.minSdk.get().toInt()
+        targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
 

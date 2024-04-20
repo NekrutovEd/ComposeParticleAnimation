@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ComposeParticleAnimation"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="fun.nekrutov.compose.particle.animation.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ComposeParticleAnimation">
             <intent-filter>

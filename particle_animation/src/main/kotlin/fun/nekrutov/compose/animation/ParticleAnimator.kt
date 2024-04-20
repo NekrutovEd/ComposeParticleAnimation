@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle
+package `fun`.nekrutov.compose.animation
 
 import androidx.compose.animation.core.AnimationSpec
 import androidx.compose.animation.core.TargetBasedAnimation

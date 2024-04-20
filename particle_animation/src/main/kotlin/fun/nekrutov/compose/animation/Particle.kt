@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle
+package `fun`.nekrutov.compose.animation
 
 import androidx.annotation.DrawableRes
 import androidx.compose.ui.unit.IntOffset

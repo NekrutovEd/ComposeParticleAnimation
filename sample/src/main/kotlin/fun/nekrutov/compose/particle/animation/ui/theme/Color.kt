@@ -1,4 +1,4 @@
-package not.cool.ed.compose.particle.animation.ui.theme
+package `fun`.nekrutov.compose.particle.animation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

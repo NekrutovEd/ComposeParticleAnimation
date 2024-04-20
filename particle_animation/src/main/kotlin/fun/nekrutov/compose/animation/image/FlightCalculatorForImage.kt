@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle.image
+package `fun`.nekrutov.compose.animation.image
 
 import android.content.Context
 import androidx.compose.ui.graphics.ImageBitmap
@@ -6,10 +6,10 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
-import not.cool.ed.compose.animation.particle.BasicFlightCalculator
-import not.cool.ed.compose.animation.particle.FlightCalculator.Factory
-import not.cool.ed.compose.animation.particle.FlightCalculator.SortSelector
-import not.cool.ed.compose.animation.particle.Particle
+import `fun`.nekrutov.compose.animation.BasicFlightCalculator
+import `fun`.nekrutov.compose.animation.FlightCalculator.Factory
+import `fun`.nekrutov.compose.animation.FlightCalculator.SortSelector
+import `fun`.nekrutov.compose.animation.Particle
 import kotlin.math.roundToInt
 
 open class FlightCalculatorForImage(

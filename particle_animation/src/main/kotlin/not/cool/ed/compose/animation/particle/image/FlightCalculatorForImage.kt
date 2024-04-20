@@ -1,4 +1,4 @@
-package not.cool.ed.compose.animation.particle
+package not.cool.ed.compose.animation.particle.image
 
 import android.content.Context
 import androidx.compose.ui.graphics.ImageBitmap
@@ -6,8 +6,10 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntSize
+import not.cool.ed.compose.animation.particle.BasicFlightCalculator
 import not.cool.ed.compose.animation.particle.FlightCalculator.Factory
 import not.cool.ed.compose.animation.particle.FlightCalculator.SortSelector
+import not.cool.ed.compose.animation.particle.Particle
 import kotlin.math.roundToInt
 
 open class FlightCalculatorForImage(
@@ -50,7 +52,8 @@ open class FlightCalculatorForImage(
 
         val newPosition = function.byPosition(progress, startPosition, targetPosition)
         val diffSize = (particleScaledSize - sourceSize) / 2
-        // смещаем позицию верхнего левого угла на смещение верхнего левого угла картинки после скейла
+        // offset the position of the top left corner by
+        // the offset of the top left corner of the image after scaling
         val newScaledPosition = newPosition - diffSize
         position = newScaledPosition
 

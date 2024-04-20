@@ -4,8 +4,6 @@
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/particle_dog"
         android:label="@string/app_name"
         android:roundIcon="@drawable/particle_dog"

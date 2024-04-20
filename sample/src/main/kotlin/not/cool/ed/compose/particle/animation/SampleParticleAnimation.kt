@@ -15,7 +15,7 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import not.cool.ed.compose.animation.particle.FlightCalculatorForImage
+import not.cool.ed.compose.animation.particle.image.FlightCalculatorForImage
 import not.cool.ed.compose.animation.particle.Particle
 import not.cool.ed.compose.animation.particle.ParticleAnimator
 import kotlin.math.roundToInt

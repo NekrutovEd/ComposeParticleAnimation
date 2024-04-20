@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "fun.nekrutov.compose.particle.animation"
-    compileSdk = libs.versions.compileSdk.get().toInt()
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "fun.nekrutov.compose.particle.animation"
-        minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.targetSdk.get().toInt()
+        minSdk = 21
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
